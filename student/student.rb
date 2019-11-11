@@ -28,5 +28,4 @@ class Student
   def say_fave_lang(language)
     return "I love #{language}"
   end
-
 end
