@@ -33,4 +33,8 @@ class Team
     @players.include?(name)
   end
 
+  # def initialize(input_points)
+  #   @points = input_points
+  # end
+
 end

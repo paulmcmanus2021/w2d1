@@ -47,9 +47,31 @@ class TestTeam < MiniTest::Test
   end
 
   #Add a points property into your class that starts at 0.
-    #Do I just add a 4th param for create_team and go through the whole program adding it where necessary?
-  #Create a method that takes in whether the team has won or lost and updates the points property for a win.
-    #No idea.
 
-#THIS IS THE FINAL END
+    #Do I just add a 4th param for create_team and go through the whole program adding it where necessary?
+
+    # def initialize(input_points)
+    #   @points = input_points
+    # end?
+
+  #Create a method that takes in whether the team has won or lost and updates the points property for a win.
+
+    # def test_win_or_lose__win
+    #   #arrange-arbitrary class
+    #   my_team = Team.new("TeamName", ["Player1", "Player2", "Player3"], "Coach1")
+    #   #actc-all win_or_lose on my_team(win) and assign it to outcome
+    #   outcome = my_team.win_or_lose("win")
+    #   #assert-compare ? with outcome
+    #   assert_equal(, outcome)
+    # end
+    #
+    # def test_win_or_lose__lose
+    #   my_team = Team.new("TeamName", ["Player1", "Player2", "Player3"], "Coach1")
+    #   outcome = my_team.win_or_lose("lose")
+    #   assert_equal(, outcome)
+    # end
+
+
+
+#
 end
