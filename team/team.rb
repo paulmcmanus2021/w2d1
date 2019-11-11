@@ -19,7 +19,8 @@ class Team
   # def coach
   #   return @coach
   # end
- #setters
+
+ #setters-IF I COMMENT THIS OUT AND LEAVE IN ATTR_WRITER/ATTR_ACCESSOR SET COACH NAME DOESN'T WORK
   def set_coach_name(name)
     @coach = name
   end
@@ -27,7 +28,7 @@ class Team
   def add_player(name)
     @players.push(name)
   end
-  
+
   def player_present(name)
     @players.include?(name)
   end

@@ -46,5 +46,10 @@ class TestTeam < MiniTest::Test
     assert_equal(false, result)
   end
 
+  #Add a points property into your class that starts at 0.
+    #Do I just add a 4th param for create_team and go through the whole program adding it where necessary?
+  #Create a method that takes in whether the team has won or lost and updates the points property for a win.
+    #No idea.
+
 #THIS IS THE FINAL END
 end
